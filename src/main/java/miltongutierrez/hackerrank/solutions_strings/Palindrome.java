@@ -1,4 +1,4 @@
-package miltongutierrez.hackerrank.solutions;
+package miltongutierrez.hackerrank.solutions_strings;
 import java.util.*;
 public class Palindrome {
     public static void main(String[] args) {
