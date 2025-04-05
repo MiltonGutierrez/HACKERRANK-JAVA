@@ -1,6 +1,27 @@
 package miltongutierrez.hackerrank.solutions;
 import java.util.Scanner;
+import java.util.function.Function;
 
+/*
+ * Function Description
+
+    Complete the getSmallestAndLargest function in the editor below.
+
+    getSmallestAndLargest has the following parameters:
+
+        string s: a string
+        int k: the length of the substrings to find
+
+    Returns
+
+        string: the string ' + "\n" + ' where and are the two substrings
+
+    Input Format
+
+    The first line contains a string denoting
+    .
+    The second line contains an integer denoting .
+ */
 public class LexicographicalSubstring{
     
     public static String getSmallestAndLargest(String s, int k) {
