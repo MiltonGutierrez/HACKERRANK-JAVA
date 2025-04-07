@@ -10,9 +10,9 @@ public class Regex {
         Tester tester = new Tester();
         // Matching Anything But a Newline
         //tester.check("^.{3}\\..{3}\\..{3}\\..{3}$"); 
-
-        // Matching Digits & Non-Digit Characters
+        // Matching Digits & Non-Digit Character
         //tester.checker("^\\d{2}\\D\\d{2}\\D\\d{4,}$"); // Use \\ instead of using \ 
+        //tester.checker("^[0-9]\\w{4}\\.$"); // Use \\ instead of using \ 
 
     
     }
