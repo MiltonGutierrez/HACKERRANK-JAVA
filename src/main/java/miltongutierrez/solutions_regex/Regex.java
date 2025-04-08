@@ -12,7 +12,9 @@ public class Regex {
         //tester.check("^.{3}\\..{3}\\..{3}\\..{3}$"); 
         // Matching Digits & Non-Digit Character
         //tester.checker("^\\d{2}\\D\\d{2}\\D\\d{4,}$"); // Use \\ instead of using \ 
+        //Matching Start & End
         //tester.checker("^[0-9]\\w{4}\\.$"); // Use \\ instead of using \ 
+        
 
     
     }
