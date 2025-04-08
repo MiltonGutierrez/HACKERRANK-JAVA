@@ -9,7 +9,7 @@ public class RegexAlienUsername {
         Scanner scan = new Scanner(System.in);
         int numberOfStrings = scan.nextInt();
         scan.nextLine();
-        Tester tester = new Tester();
+        TesterAlien tester = new TesterAlien();
         String pattern = "^[_\\.][0-9]+[A-Za-z]*[_]{0,1}$";
         for(int i = 0; i < numberOfStrings; i ++){
             tester.check(pattern, scan);
@@ -18,7 +18,7 @@ public class RegexAlienUsername {
 }
 
 
-class Tester {
+class TesterAlien {
 
     public void check(String pattern, Scanner scanner){
       	String testString = scanner.nextLine();
